@@ -19,7 +19,7 @@ const SECS_PER_DEGREE: f64 = 0.0027778;
 
 fn main() -> Result<()> {
     let system = Box::new(TimingTest::new());
-    run(WIDTH, HEIGHT, WindowScaling::Auto, "Timing Test", system, ExecutionSpeed::new(120))?;
+    run(WIDTH, HEIGHT, "Timing Test", system, Options {ups:120,..Options::default()})?;
     Ok(())
 }
 

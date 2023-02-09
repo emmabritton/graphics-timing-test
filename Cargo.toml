@@ -6,5 +6,5 @@ edition = "2021"
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
-pixels-graphics-lib = "0.8.0"
+pixels-graphics-lib = "0.8.4"
 color-eyre = "0.6.2"
